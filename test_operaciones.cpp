@@ -9,10 +9,11 @@ TEST_CASE("suma") {
     REQUIRE(suma(0, 0) == 0);
     REQUIRE(suma(100, -100) == 0);
 }
-/*TEST_CASE("Resta") {
+TEST_CASE("Resta") {
     int a = 5;
     int b = 3;
     int resultado = a - b;
 
-    CHECK(resultado == 2);*/
+    CHECK(resultado == 2);
+}
 
